@@ -1,0 +1,19 @@
+{
+  "name": "memento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dictionary.js",
+  "scripts": {
+    "push": "git push https://github.com/personaldata143/Memento.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personaldata143/Memento.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/personaldata143/Memento/issues"
+  },
+  "homepage": "https://github.com/personaldata143/Memento#readme"
+}
