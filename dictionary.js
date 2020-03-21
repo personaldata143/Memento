@@ -1,4 +1,17 @@
-// Sample API call: https://www.dictionaryapi.com/api/v3/references/collegiate/json/tall?key=20092269-c22f-46c2-a8c0-3bf0c4a9f097
+/* 
+
+Library for a custom data source for Memento DataBase. It obtains information for X
+from the api at 
+
+@param {string} apiKey, baseurl
+@example
+var ds = new SampleDS();
+var r = ds.search(query);
+result( r , function(id) { return ds.extra(id);});
+@apicall
+https://www.dictionaryapi.com/api/v3/references/collegiate/json/tall?key=20092269-c22f-46c2-a8c0-3bf0c4a9f097
+
+*/
 
 var baseurl = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
 
@@ -13,11 +26,9 @@ SampleDS.prototype.search = function(q) {
 
   var result = {};
     
-  if (res["0"].meta.id !== undefined)
-  result['word'] = res["0"].meta.id;
+  if (res[0].meta.id !== undefined)
+  result['word'] = res[0].meta.id;
     
-  result['rain'] = "No rain";
-  result['TEST'] = "tEST";
  
   return result;
 
