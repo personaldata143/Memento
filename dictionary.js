@@ -1,3 +1,5 @@
+// Sample API call: https://www.dictionaryapi.com/api/v3/references/collegiate/json/tall?key=20092269-c22f-46c2-a8c0-3bf0c4a9f097
+
 var baseurl = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
 
 function SampleDS (apiKey) {
