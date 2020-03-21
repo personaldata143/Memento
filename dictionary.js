@@ -20,8 +20,13 @@ function SampleDS (apiKey) {
 
 SampleDS.prototype.search = function(q) {
     
+
   var resultJson = http().get(baseurl + encodeURIComponent(q) + "?key=" + this.apikey );
   var res = JSON.parse(resultJson.body);
+
+//   var resultJson = http().get(baseurl + encodeURIComponent(q) + "?key=" + this.apikey );
+  // var res = JSON.parse(resultJson.body);
+
   var result = {test:0};
     
   return res;

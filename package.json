@@ -4,7 +4,7 @@
   "description": "",
   "main": "dictionary.js",
   "scripts": {
-    "p": "git push https://github.com/personaldata143/Memento.git"
+    "test": "git push https://github.com/personaldata143/Memento.git"
   },
   "repository": {
     "type": "git",
