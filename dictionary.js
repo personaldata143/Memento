@@ -2,6 +2,8 @@
 
 Library for a custom data source for Memento DataBase. It obtains information for X
 from the api at 
+@git
+git push https://github.com/personaldata143/Memento.git
 
 @param {string} apiKey, baseurl
 @example
